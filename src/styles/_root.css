@@ -7,8 +7,7 @@
     /*--transition-show: 1200ms var(--ease-out-quint);*/
     --image-fallback: #DFF3FF;
     --container-padding: 24px;
-    --action-color: #0D25FF;
-    --action-color-hover: #00F0FF;
+
     --input-border: #B3B3B3;
     --input-border-hover-and-focus: var(--action-color-hover);
     --placeholder-color: #C9C9C9;
@@ -19,6 +18,12 @@
     --bottom-padding: calc(var(--top-padding) * 2);
     --header-height: 140px;
     --tiles-gap: 20px;
+
+
+    --siniy1: #0068B2;
+    --siniy1-hover: #0099FF; /* Аналогично голубому */
+    --goluboy: #0099FF;
+    --seriy-text: #565656;
 }
 
 @media (1850px <= width) {

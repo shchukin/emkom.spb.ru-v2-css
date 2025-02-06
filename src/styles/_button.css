@@ -5,12 +5,12 @@
     border: none;
     padding: 10px 24px;
     min-width: 100px;
-    background-color: var(--action-color);
-    border-radius: 0;
+    background-color: var(--siniy1);
+    border-radius: 3px;
     font-family: inherit;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
@@ -22,8 +22,7 @@
 }
 
 .button:hover {
-    background-color: var(--action-color-hover);
-    color: #0F33A9;
+    background-color: var(--siniy1-hover);
 }
 
 
