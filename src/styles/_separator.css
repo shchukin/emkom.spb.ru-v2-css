@@ -1,0 +1,28 @@
+.separator {
+    height: 30px;
+    background-color: #0F33A9;
+    border-top: 10px solid #FFFFFF;
+    border-bottom: 10px solid #FF0000;
+}
+
+
+@media (1850px <= width) {
+
+    .separator {
+        height: 39px;
+        border-top-width: 13px;
+        border-bottom-width: 13px;
+    }
+}
+
+
+
+@media (width < 740px) {
+
+    .separator {
+        height: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+}
+

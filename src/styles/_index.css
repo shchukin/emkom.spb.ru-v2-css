@@ -1,0 +1,45 @@
+.index {
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+    .index__intro {
+
+    }
+
+    .index__projects {
+        margin-top: -157px;
+    }
+
+
+
+@media (1850px <= width) {
+
+    .index {
+        /*padding-top: 3px;*/
+        padding-bottom: 47px;
+    }
+        .index__intro {
+
+        }
+
+        .index__projects {
+            margin-top: -158px;
+        }
+}
+
+
+
+@media (width < 740px) {
+
+    .index {
+        /*padding-top: 3px;*/
+        padding-bottom: 0;
+    }
+        .index__intro {
+
+        }
+
+        .index__projects {
+            margin-top: 5px; /* если это надо убрать, то не удаляем, а заменяем на 0 */
+        }
+}

@@ -1,0 +1,119 @@
+.portfolio {
+    padding-top: 3px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+}
+    .portfolio__heading {
+        margin-top: 51px;
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .portfolio__list {
+        overflow: hidden; /* обрезаем пустые гексагоны */
+    }
+        .portfolio__list-wrap {
+            margin-top: 58px;
+        }
+            .portfolio__list-wrap .work {
+
+            }
+
+    .portfolio__map-heading {
+        display: none;
+    }
+
+    .portfolio__map {
+        order: -1;
+    }
+
+
+
+@media (1850px <= width) {
+
+    .portfolio {
+        /*padding-top: 3px;*/
+        padding-bottom: 180px;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+        .portfolio__heading {
+            margin-top: 47px;
+            /*margin-bottom: 0;*/
+            /*font-weight: 600;*/
+            font-size: 50px;
+            line-height: 58px;
+            /*text-align: center;*/
+        }
+
+        .portfolio__list {
+            /*overflow: hidden; !* обрезаем пустые гексагоны *!*/
+        }
+            .portfolio__list-wrap {
+                margin-top: 46px;
+            }
+                .portfolio__list-wrap .work {
+
+                }
+
+        .portfolio__map-heading {
+            /*display: none;*/
+        }
+
+        .portfolio__map {
+            /*order: -1;*/
+        }
+}
+
+
+
+
+@media (width < 740px) {
+
+    .portfolio {
+        padding-top: 0;
+        padding-bottom: 0;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+        .portfolio__heading {
+            order: 1;
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .portfolio__list {
+            order: 2;
+            margin-top: 12px;
+            background-color: #0D25FF;
+            color: #FFFFFF;
+            overflow: hidden; /* обрезаем карусель */
+        }
+            .portfolio__list-wrap {
+                /*padding-top: 50px;*/
+                padding-bottom: 23px;
+            }
+
+        .portfolio__map-heading {
+            order: 3;
+            margin-top: 28px;
+            margin-bottom: 0;
+            display: block;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+        }
+
+        .portfolio__map {
+            order: 4;
+            margin-top: 18px;
+            /*order: -1;*/
+        }
+}
