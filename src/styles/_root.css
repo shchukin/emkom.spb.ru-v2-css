@@ -9,7 +9,8 @@
     --container-padding: 24px;
 
     --input-border: #B3B3B3;
-    --input-border-hover-and-focus: yellow;
+    --input-border-hover: var(--siniy1-hover);
+    --input-border-focus: var(--siniy1);
     --placeholder-color: #C9C9C9;
     --disabled-background: #FAFAFA;
     --disabled-color: #C9C9C9;
