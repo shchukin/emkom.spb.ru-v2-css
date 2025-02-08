@@ -199,10 +199,27 @@
                         padding-top: 120px;
                         padding-bottom: 10px;
                         background-color: #0279C5;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
                         font-weight: 600;
                         font-size: 18px;
                         line-height: 24px;
                         color: #FFFFFF;
+                    }
+
+                    @media (440px <= width) {
+                        .contacts__sub-heading {
+                            background-size: 360px 156px;
+                        }
+                    }
+
+                    .contacts__item--spb .contacts__sub-heading {
+                        background-image: url("../images/contacts/contacts-smartphone-saint-petersburg@1x.jpg");
+                    }
+
+                    .contacts__item--kirovsk .contacts__sub-heading {
+                        background-image: url("../images/contacts/contacts-smartphone-kirovsk@1x.jpg");
                     }
 
                     .contacts__list {
