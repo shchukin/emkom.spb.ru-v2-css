@@ -28,7 +28,8 @@
     height: auto;
     right: 0;
     bottom: 0;
-    background: rgba(15, 51, 169, 0.79);
+    background-color: transparent;
+    background-image: linear-gradient(rgb(5 124 200 / 80%), rgb(1 123 200 / 80%) 31%, rgb(0 60 98 / 80%));
 }
 
 /* overlay at start */
