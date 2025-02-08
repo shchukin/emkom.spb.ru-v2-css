@@ -273,6 +273,12 @@
                     nextEl: $carousel.querySelector('.carousel__button--next'),
                     disabledClass: 'carousel__button--disabled',
                 },
+                breakpoints: {
+                    400: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 2,
+                    },
+                },
             });
         }
 
