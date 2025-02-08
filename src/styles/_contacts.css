@@ -1,32 +1,33 @@
 .contacts {
-    position: relative;
-    padding-top: 5px;
-    padding-bottom: var(--bottom-padding);
-    overflow: hidden; /* обрезаем заголовок */
+    padding-top: var(--top-padding);
+    padding-bottom: 32px;
+    background-image: url("../images/contacts/contacts-laptop@1x.jpg"), linear-gradient(#0279C5, #0279C5);
+    background-size: 1280px 328px, 100% 328px;
+    background-repeat: no-repeat;
+    background-position: center calc(27px + 2 * var(--top-padding)); /* 27px -- высота заголока */
+}
+
+@media (min-resolution: 1.5dppx) {
+    .contacts {
+        background-image: url("../images/contacts/contacts-laptop@2x.jpg"), linear-gradient(#0279C5, #0279C5);
+    }
 }
     .contacts__wrap {
 
     }
         .contacts__heading {
-            position: absolute;
-            left: 50%;
-            margin-left: -100px;
-            top: 106px;
             margin-top: 0;
             margin-bottom: 0;
-            padding: 10px 2000px 14px 100px;
-            background-color: #0D25FF;
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 40px;
-            color: #FFFFFF;
+            text-align: center;
+            color: var(--seriy-text);
         }
 
         .contacts__body {
+            margin-top: 370px;
             display: grid;
-            grid-template-columns: repeat(2, 450px);
-            justify-content: center;
-            gap: 38px;
+            grid-template-columns: repeat(2, minmax(0, 500px));
+            padding-left: 106px;
+            gap: 48px;
         }
             .contacts__item {
 
@@ -37,40 +38,12 @@
             }
 
             .contacts__item--kirovsk {
-                margin-top: 202px;
+
             }
-                .contacts__preview {
-                    position: relative;
-                    width: 420px;
-                    height: 364px;
-                    clip-path: path("M316 0H104L0 182L104 364H316L420 182L316 0Z");
-                }
-
-                .contacts__item--spb .contacts__preview {
-                    left: 53px;
-                    /*top: 15px;*/
-                }
-
-                .contacts__item--kirovsk .contacts__preview {
-                    left: -106px;
-                    top: -12px;
-                }
-                    .contacts__image {
-                        vertical-align: top;
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        background-color: var(--image-fallback);
-                    }
-
                 .contacts__sub-heading {
-                    margin-top: 5px;
+                    margin-top: 0;
                     margin-bottom: 0;
-                    margin-left: -3px;
-                    font-weight: bold;
-                    font-size: 40px;
-                    line-height: 40px;
-                    color: #0D25FF;
+                    color: var(--seriy-text);
                 }
 
                 .contacts__list {
@@ -78,8 +51,8 @@
                 }
                     .contacts__channel {
                         position: relative;
-                        padding-left: 36px;
-                        margin-top: var(--body-line-height);
+                        padding-left: 46px;
+                        margin-top: 10px;
                     }
 
                     .contacts__channel:first-child {
@@ -92,7 +65,8 @@
                             vertical-align: top;
                             width: 20px;
                             height: auto;
-                            fill: #0F33A9;
+                            fill: var(--siniy1);
+                            scale: 110%;
                         }
 
                         .contacts__icon--email {
@@ -100,45 +74,43 @@
                         }
 
                         .contacts__value {
-                            font-size: var(--body-font-size);
-                            line-height: var(--body-line-height);
-                            color: #0F33A9;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #565656;
                         }
+                            .contacts__working-hours {
+                                margin-top: 10px;
+                            }
 
 
 
 @media (1850px <= width) {
 
     .contacts {
-        /*position: relative;*/
-        /*padding-top: 5px;*/
-        /*padding-bottom: var(--bottom-padding);*/
-        /*overflow: hidden; !* обрезаем заголовок *!*/
+        padding-bottom: 40px;
+        background-image: url("../images/contacts/contacts-monitor@1x.jpg"), linear-gradient(#0279C5, #0279C5);
+        background-size: 1920px 378px, 100% 378px;
+        background-repeat: no-repeat;
+        background-position: center calc(52px + 2 * var(--top-padding)); /* 52px -- высота заголока */
+    }
+
+    @media (min-resolution: 1.5dppx) {
+        .contacts {
+            background-image: url("../images/contacts/contacts-monitor@2x.jpg"), linear-gradient(#0279C5, #0279C5);
+        }
     }
         .contacts__wrap {
 
         }
             .contacts__heading {
-                /*position: absolute;*/
-                /*left: 50%;*/
-                /*margin-left: -100px;*/
-                top: 120px;
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                padding-top: 1px;
-                padding-left: 148px;
-                padding-bottom: 7px;
-                /*background-color: #0D25FF;*/
-                /*font-weight: 600;*/
-                font-size: 50px;
-                line-height: 42px;
-                /*color: #FFFFFF;*/
+
             }
 
             .contacts__body {
-                /*display: grid;*/
-                /*grid-template-columns: repeat(2, 450px);*/
-                /*justify-content: center;*/
+                margin-top: 428px;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 486px));
+                padding-left: 340px;
                 gap: 60px;
             }
                 .contacts__item {
@@ -150,45 +122,14 @@
                 }
 
                 .contacts__item--kirovsk {
-                    margin-top: 202px;
+
                 }
-                    .contacts__preview {
-                        width: 436px;
-                        height: 378px;
-                        clip-path: path("M328.038 0H107.962L0 189L107.962 378H328.038L436 189L328.038 0Z");
-                    }
-
-                    .contacts__item--spb .contacts__preview {
-                        /*left: 53px;*/
-                    }
-
-                    .contacts__item--kirovsk .contacts__preview {
-                        /*left: -106px;*/
-                        /*top: -12px;*/
-                    }
-                        .contacts__image {
-                            /*vertical-align: top;*/
-                            /*width: 100%;*/
-                            /*height: 100%;*/
-                            /*object-fit: cover;*/
-                        }
-
                     .contacts__sub-heading {
-                        margin-top: 15px;
-                        /*margin-bottom: 0;*/
-                        /*margin-left: -3px;*/
-                        /*font-weight: bold;*/
-                        font-size: 43px;
-                        line-height: 43px;
-                        /*color: #0D25FF;*/
-                    }
 
-                    .contacts__item--spb .contacts__sub-heading {
-                        margin-top: 20px;
                     }
 
                     .contacts__list {
-                        margin-top: 20px;
+                        margin-top: 25px;
                     }
                         .contacts__channel {
                             /*position: relative;*/
@@ -225,40 +166,23 @@
 @media (width < 740px) {
 
     .contacts {
-        position: static;
-        padding-top: 2px;
-        /*padding-bottom: var(--bottom-padding);*/
-        /*overflow: hidden; !* обрезаем заголовок *!*/
+        background-image: none;
+        overflow: hidden; /* На всякий случае если contacts__sub-heading выезжает за границы экрана на смартфонах и добавляет горизонтальный скролл в пару пикселей */
     }
         .contacts__wrap {
 
         }
             .contacts__heading {
-                position: static;
-                /*left: 50%;*/
-                margin-left: -200px;
-                margin-right: -200px;
-                /*top: 106px;*/
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                padding: 4px 200px 7px;
-                /*background-color: #0D25FF;*/
-                /*font-weight: 600;*/
-                font-size: 30px;
-                line-height: 30px;
-                /*color: #FFFFFF;*/
-                text-align: center;
+
             }
 
             .contacts__body {
+                margin-top: var(--top-padding);
                 display: block;
-                flex-direction: column;
-                /*grid-template-columns: repeat(2, 450px);*/
-                /*justify-content: center;*/
+                padding-left: 0;
             }
                 .contacts__item {
-                    display: flex;
-                    flex-direction: column;
+                    margin-top: 0;
                 }
 
                 .contacts__item--spb {
@@ -268,75 +192,36 @@
                 .contacts__item--kirovsk {
                     margin-top: 20px;
                 }
-                    .contacts__preview {
-                        position: static;
-                        margin-top: 3px;
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 328px;
-                        height: 284px;
-                        clip-path: path("M246.781 0H81.219L0 142L81.219 284H246.781L328 142L246.781 0Z");
-                    }
-
-                    @media (max-width: 350px) {
-                        .contacts__preview {
-                            width: 290px;
-                            height: 251px;
-                            clip-path: path("M218.19 0H71.8095L0 125.5L71.8095 251H218.19L290 125.5L218.19 0Z");
-                        }
-                    }
-
-                    .contacts__item--spb .contacts__preview {
-                        /*left: 53px;*/
-                    }
-
-                    .contacts__item--kirovsk .contacts__preview {
-                        /*left: -106px;*/
-                        /*top: -12px;*/
-                    }
-                        .contacts__image {
-                            /*vertical-align: top;*/
-                            /*width: 100%;*/
-                            /*height: 100%;*/
-                            /*object-fit: cover;*/
-                        }
-
                     .contacts__sub-heading {
-                        order: -1;
-                        margin: 0 -200px;
-                        padding: 4px 200px 7px;
-                        /*margin-bottom: 0;*/
-                        background-color: #00F0FF;
-                        /*font-weight: bold;*/
-                        font-size: 30px;
-                        line-height: 30px;
-                        /*color: #0D25FF;*/
                         text-align: center;
+                        margin-left: calc(-1 * var(--container-padding));
+                        margin-right: calc(-1 * var(--container-padding));
+                        padding-top: 120px;
+                        padding-bottom: 10px;
+                        background-color: #0279C5;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #FFFFFF;
                     }
 
                     .contacts__list {
-                        /*margin-top: 20px;*/
-                        max-width: 280px;
-                        margin-left: auto;
-                        margin-right: auto;
+                        margin-top: 16px;
                     }
                         .contacts__channel {
                             /*position: relative;*/
                             /*padding-left: 36px;*/
-                            /*margin-top: var(--body-line-height);*/
+                            margin-top: 18px;
+                            padding-left: 33px;
                         }
 
                         .contacts__channel:first-child {
                             /*margin-top: 0;*/
                         }
                             .contacts__icon {
-                                /*position: absolute;*/
-                                /*left: 0;*/
-                                top: 1px;
-                                /*vertical-align: top;*/
-                                /*width: 20px;*/
-                                /*height: auto;*/
-                                /*fill: #0F33A9;*/
+                                top: -1px;
+                                scale: 90%;
+                                transform-origin: center top;
                             }
 
                             .contacts__icon--email {
@@ -344,7 +229,8 @@
                             }
 
                             .contacts__value {
-
+                                font-size: 14px;
+                                line-height: 20px;
                                 /*color: #0F33A9;*/
                             }
 }

@@ -15,11 +15,10 @@
     --disabled-background: #FAFAFA;
     --disabled-color: #C9C9C9;
     --error: #FF0033;
-    --top-padding: 42px;
+    --top-padding: 13px;
     --bottom-padding: calc(var(--top-padding) * 2);
     --header-height: 140px;
     --tiles-gap: 20px;
-
 
     --siniy1: #0068B2;
     --siniy1-hover: #0099FF; /* Аналогично голубому */
@@ -30,7 +29,7 @@
 @media (1850px <= width) {
     :root {
         --container-padding: 60px;
-        --top-padding: 58px;
+        --top-padding: 20px;
         --tiles-gap: 24px;
     }
 }
@@ -39,7 +38,7 @@
     :root {
         --header-height: 90px;
         --container-padding: 16px;
-        --top-padding: 32px;
+        --top-padding: 10px;
         --body-font-size: 17px;
         --body-line-height: 24px;
         --tiles-gap: 12px;
