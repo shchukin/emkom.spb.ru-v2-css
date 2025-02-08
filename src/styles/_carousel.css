@@ -113,20 +113,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--action-color);
+        background-color: var(--siniy1);
         border-radius: 50%;
         cursor: pointer;
         transition: background-color var(--transition-hover);
     }
 
     .carousel--css-default-arrow .carousel__button:hover {
-        background-color: var(--action-color-hover);
+        background-color: var(--siniy1-hover);
         color: #0D25FF;
     }
 
     .carousel--css-default-arrow .carousel__button--disabled,
     .carousel--css-default-arrow .carousel__button--disabled:hover {
-        background-color: var(--action-color);
+        background-color: var(--siniy1);
         opacity: 10%;
         cursor: default;
         transition: none;

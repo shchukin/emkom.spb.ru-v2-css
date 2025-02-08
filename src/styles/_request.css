@@ -111,6 +111,7 @@
 
     .form {
         width: 440px;
+        padding-top: 42px;
         padding-left: 16px;
         padding-right: 16px;
     }

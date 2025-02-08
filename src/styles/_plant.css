@@ -72,7 +72,7 @@
             gap: 54px;
             border: none;
             padding: 10px 66px 10px 31px;
-            background-color: var(--action-color);
+            background-color: var(--siniy1);
             border-radius: 0;
             font-family: inherit;
             font-weight: bold;
@@ -89,7 +89,7 @@
         }
 
     .plant__button:hover {
-        background-color: var(--action-color-hover);
+        background-color: var(--siniy1-hover);
         color: #0F33A9;
     }
         #plant__cog {

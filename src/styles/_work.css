@@ -202,7 +202,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--action-color);
+    background-color: var(--siniy1);
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
@@ -217,7 +217,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--action-color-hover);
+    background-color: var(--siniy1-hover);
     color: #0F33A9;
 }
 
