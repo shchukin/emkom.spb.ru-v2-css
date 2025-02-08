@@ -10,19 +10,21 @@
     .http-error__code {
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: inherit;
-        font-size: 130px;
-        line-height: 130px;
+        font-weight: 500;
+        font-size: 162px;
+        line-height: 162px;
         color: #D1D3D4;
         text-align: center;
     }
 
     .http-error__description {
-        margin-top: 8px;
+        margin-top: 12px;
+        font-weight: 600;
         font-size: 18px;
         line-height: 26px;
         color: #D1D3D4;
         text-align: center;
+        text-transform: uppercase;
     }
 
 
@@ -37,8 +39,8 @@
             /*margin-top: 0;*/
             /*margin-bottom: 0;*/
             /*font-weight: inherit;*/
-            font-size: 162px;
-            line-height: 162px;
+            font-size: 190px;
+            line-height: 190px;
             /*color: #D1D3D4;*/
             /*text-align: center;*/
         }
@@ -84,10 +86,11 @@
 
         .http-error__description {
             /*margin-top: 8px;*/
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 22px;
+            line-height: 28px;
             /*color: #D1D3D4;*/
             /*text-align: center;*/
+            text-transform: none;
         }
 }
 
