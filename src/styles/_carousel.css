@@ -29,6 +29,10 @@
         .carousel--css-disable-on-desktop .carousel__pagination {
             display: none;
         }
+
+        .carousel--css-disable-on-desktop .carousel__button {
+            display: none !important;
+        }
 }
 
 
@@ -604,6 +608,77 @@
 
                 }
                     .carousel--css-skin-gallery .swiper-slide {
+
+                    }
+}
+
+
+
+
+/* Skin Certificates */
+
+.carousel--css-skin-certificates {
+
+}
+
+
+@media (740px <= width) {
+
+    .carousel--css-skin-certificates {
+
+    }
+        .carousel--css-skin-certificates .carousel__widget {
+
+        }
+            .carousel--css-skin-certificates .swiper {
+                overflow: visible;
+            }
+                .carousel--css-skin-certificates .swiper-wrapper {
+                    display: grid;
+                    grid-template-columns: repeat(3, minmax(0, 1fr));
+                    gap: 14px;
+                }
+                    .carousel--css-skin-certificates .swiper-slide {
+
+                    }
+}
+
+
+@media (1850px <= width) {
+
+    .carousel--css-skin-certificates {
+
+    }
+        .carousel--css-skin-certificates .carousel__widget {
+
+        }
+            .carousel--css-skin-certificates .swiper {
+
+            }
+                .carousel--css-skin-certificates .swiper-wrapper {
+                    gap: 20px;
+                }
+                    .carousel--css-skin-certificates .swiper-slide {
+
+                    }
+}
+
+
+@media (width < 740px) {
+
+    .carousel--css-skin-certificates {
+
+    }
+        .carousel--css-skin-certificates .carousel__widget {
+
+        }
+            .carousel--css-skin-certificates .swiper {
+                overflow: visible; /* Будем обрезать краями браузера */
+            }
+                .carousel--css-skin-certificates .swiper-wrapper {
+
+                }
+                    .carousel--css-skin-certificates .swiper-slide {
 
                     }
 }

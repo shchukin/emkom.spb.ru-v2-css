@@ -1,0 +1,23 @@
+.title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+@media (1850px <= width) {
+
+    .title {
+        font-size: 34px;
+        line-height: 52px;
+    }
+}
+
+
+@media (width < 740px) {
+
+    .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
