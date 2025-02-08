@@ -1,6 +1,6 @@
 .form {
     width: 448px;
-    padding: 33px 67px 30px;
+    padding: 33px 67px 24px;
 }
     .form__heading {
         margin-top: 0;
@@ -40,13 +40,10 @@
 
         .form__submit {
             margin-top: 32px;
-            max-width: 198px;
+            width: fit-content;
             margin-left: auto;
             margin-right: auto;
         }
-            .form__submit .button {
-                width: 100%;
-            }
 
         .form__note {
             margin-top: 10px;
@@ -96,11 +93,7 @@
 
             .form__submit {
                 margin-top: 57px;
-                max-width: 356px;
             }
-                .form__submit .button {
-
-                }
 
         .form__note {
             margin-top: 23px;
@@ -164,13 +157,8 @@
 
             .form__submit {
                 /*margin-top: 49px;*/
-                /*max-width: 309px;*/
-                /*margin-left: auto;*/
-                /*margin-right: auto;*/
             }
-                .form__submit .button {
-                    /*width: 100%;*/
-                }
+
 
             .form__note {
                 /*margin-top: 18px;*/
