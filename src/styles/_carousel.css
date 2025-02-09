@@ -184,7 +184,8 @@
 
 
 
-/* Portfolio on desktop */
+
+/* Full Portfolio on desktop */
 
 @media (740px <= width) {
 
@@ -199,14 +200,15 @@
             }
                 .carousel--css-skin-full-portfolio-on-desktop .carousel__widget .swiper-wrapper {
                     display: grid;
-                    grid-template-columns: repeat(6, 162px); /* Default to 3 items per row */
-                    gap: 0 42px;
+                    grid-template-columns: repeat(6, 168px); /* Default to 3 items per row */
+                    gap: 0 14px;
                     justify-content: center;
-                    padding-top: 69px;
+                    padding-top: 88px;
                 }
                     .carousel--css-skin-full-portfolio-on-desktop .swiper-slide {
                         display: flex;
-                        margin-top: -69px !important;
+                        margin-top: -88px !important;
+                        pointer-events: none; /* когда наезжаем на гексагон сверху */
                     }
 
                     .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+1),
@@ -225,34 +227,85 @@
                             position: absolute;
                             top: 0;
                             display: block;
-                            width: 366px;
-                            height: 422px;
-                            background-image: url("../vectors/project-frame.svg");
+                            width: 350px;
+                            height: 403px;
+                            background-image: url("../vectors/work-laptop-frame.svg");
                             background-size: contain;
                             background-repeat: no-repeat;
                             background-position: center center;
+                            pointer-events: none;
                         }
 
                     .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+4) {
                         justify-content: flex-end;
                     }
                         .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+4)::before {
-                            right: 408px;
+                            right: 364px;
                         }
 
                     .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+5) {
                         justify-content: flex-start;
                     }
                         .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+5)::before {
-                            left: 408px;
+                            left: 364px;
                         }
 
     .carousel--css-skin-full-portfolio-on-desktop .carousel__pagination {
         display: none;
     }
+
+
+
+    @media (1850px <= width) {
+
+        .carousel--css-skin-full-portfolio-on-desktop .carousel {
+
+        }
+            .carousel--css-skin-full-portfolio-on-desktop .carousel__widget {
+
+            }
+                .carousel--css-skin-full-portfolio-on-desktop .carousel__widget .swiper {
+
+                }
+                    .carousel--css-skin-full-portfolio-on-desktop .carousel__widget .swiper-wrapper {
+                        grid-template-columns: repeat(6, 176px); /* Default to 3 items per row */
+                        gap: 0 14px;
+                        padding-top: 93px;
+                    }
+                        .carousel--css-skin-full-portfolio-on-desktop .swiper-slide {
+                            margin-top: -93px !important;
+                        }
+                            .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+4)::before,
+                            .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+5)::before {
+                                width: 360px;
+                                height: 422px;
+                                background-image: url("../vectors/work-monitor-frame.svg");
+                            }
+
+                        .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+4) {
+
+                        }
+                            .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+4)::before {
+                                right: 380px;
+                            }
+
+                        .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+5) {
+
+                        }
+                            .carousel--css-skin-full-portfolio-on-desktop .swiper-slide:nth-child(5n+5)::before {
+                                left: 380px;
+                            }
+
+        .carousel--css-skin-full-portfolio-on-desktop .carousel__pagination {
+
+        }
+    }
 }
 
 
+
+
+/* Short portfolio on desktop */
 
 @media (740px <= width) {
 
@@ -419,6 +472,8 @@
                         }
     }
 }
+
+
 
 
 /* Portfolio on smartphone */
