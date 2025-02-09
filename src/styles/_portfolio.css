@@ -66,7 +66,7 @@
 @media (width < 740px) {
 
     .portfolio {
-
+        background-image: none;
     }
         .portfolio__heading {
 
