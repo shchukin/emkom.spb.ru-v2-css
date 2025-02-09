@@ -281,7 +281,7 @@
             overflow: hidden; /* Обрезаем карусель */
             background-color: var(--temno-siniy);
             padding-top: 27px;
-            padding-bottom: 42px;
+            padding-bottom: 24px;
         }
             .index__projects-wrap {
 
