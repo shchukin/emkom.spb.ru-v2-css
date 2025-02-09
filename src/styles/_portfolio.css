@@ -1,5 +1,9 @@
 .portfolio {
     padding-top: var(--top-padding);
+    background-image: linear-gradient(#FFFFFF, #686868);
+    background-size: 100% 2000px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
     .portfolio__heading {
         margin-top: 0;
