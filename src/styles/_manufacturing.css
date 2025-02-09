@@ -1,86 +1,30 @@
 .manufacturing {
-    padding-top: 3px;
-    padding-bottom: 74px;
+    padding-top: var(--top-padding);
 }
-    .manufacturing__preview {
-        height: 540px;
-        background-color: #0089F5;
-        background-image: url("../images/manufacturing/manufacturing-desktop@1x.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        padding: 32px;
+    .manufacturing__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
     }
 
-    @media (min-resolution: 1.5dppx) {
-        .manufacturing__preview {
-            background-image: url("../images/manufacturing/manufacturing-desktop@2x.jpg");
-        }
+    .manufacturing__list {
+        margin-top: var(--top-padding);
     }
-        .manufacturing__heading {
-            margin-top: 0;
-            margin-bottom: 0;
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 49px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-
-    .manufacturing__section {
-        padding-top: 42px;
-    }
-        .manufacturing__sub-heading {
-            margin-top: 0;
-            margin-bottom: 0;
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 49px;
-            text-align: center;
-        }
-
-        .manufacturing__list {
-            margin-top: 21px;
-            display: flex;
-            flex-direction: column;
-        }
 
 
 
 @media (1850px <= width) {
 
     .manufacturing {
-        /*padding-top: 3px;*/
-        padding-bottom: 120px;
+
     }
-        .manufacturing__preview {
-            /*margin-top: 0;*/
-            /*margin-bottom: 0;*/
-            height: 633px;
-            /*background-image: url("../images/manufacturing/manufacturing-desktop@1x.jpg");*/
-            /*background-size: cover;*/
-            /*background-repeat: no-repeat;*/
-            /*background-position: center center;*/
-            padding: 40px;
-        }
-            .manufacturing__heading {
-                font-size: 50px;
-                line-height: 58px;
-            }
+        .manufacturing__heading {
 
-        .manufacturing__section {
-            padding-top: 59px;
         }
-            .manufacturing__sub-heading {
-                font-size: 50px;
-                line-height: 58px;
-            }
 
-            .manufacturing__list {
-                margin-top: 51px;
-                /*display: flex;*/
-                /*flex-direction: column;*/
-            }
+        .manufacturing__list {
+
+        }
 }
 
 
@@ -88,49 +32,14 @@
 @media (width < 740px) {
 
     .manufacturing {
-        /*padding-top: 3px;*/
-        /*padding-bottom: 74px;*/
+
     }
-        .manufacturing__preview {
-            height: 310px;
-            /*background-image: url("../images/manufacturing/manufacturing-desktop@1x.jpg");*/
-            /*background-size: cover;*/
-            /*background-repeat: no-repeat;*/
-            /*background-position: center center;*/
-            padding: 20px;
+        .manufacturing__heading {
+
         }
 
-        @media (min-resolution: 1.5dppx) {
-            .manufacturing__preview {
-                /*background-image: url("../images/manufacturing/manufacturing-desktop@2x.jpg");*/
-            }
-        }
-            .manufacturing__heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                /*font-weight: 600;*/
-                font-size: 30px;
-                line-height: 37px;
-                /*text-align: center;*/
-                /*color: #FFFFFF;*/
-            }
+        .manufacturing__list {
 
-        .manufacturing__section {
-            padding-top: 26px;
         }
-            .manufacturing__sub-heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                /*font-weight: 600;*/
-                font-size: 30px;
-                line-height: 37px;
-                /*text-align: center;*/
-            }
-
-            .manufacturing__list {
-                margin-top: 26px;
-                /*display: flex;*/
-                /*flex-direction: column;*/
-            }
 }
 
