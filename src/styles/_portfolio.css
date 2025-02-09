@@ -29,8 +29,10 @@
             position: absolute;
             left: 0;
             right: 0;
-            top: 133px;
+            top: 151px;
             text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
             color: #FFFFFF;
         }
 
@@ -65,7 +67,7 @@
 
         }
             .portfolio__map-heading {
-
+                top: 158px;
             }
 }
 
@@ -99,7 +101,7 @@
             }
 
         .portfolio__map {
-
+            margin-top: 18px;
         }
             .portfolio__map-heading {
                 position: static;
@@ -107,5 +109,6 @@
                 max-width: 180px;
                 margin-left: auto;
                 margin-right: auto;
+                margin-bottom: 18px;
             }
 }
