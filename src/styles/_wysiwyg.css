@@ -58,8 +58,14 @@
     }
 }
 
+
 .wysiwyg h3 {
+    margin-top: calc(2 * var(--body-line-height));
+    margin-bottom: var(--body-line-height);
     font-weight: 600;
+    font-size: calc(var(--body-font-size) + 2px);
+    line-height: calc(var(--body-line-height) + 3px);
+    text-transform: uppercase;
 }
 
 .wysiwyg h4 {
