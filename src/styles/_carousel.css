@@ -113,27 +113,27 @@
         height: 70px;
         margin-top: calc(-35px - 19px); /* 19px высота точек */
         padding: 0;
+        background-color: transparent;
         border: none;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--siniy1);
         border-radius: 50%;
         cursor: pointer;
         transition: background-color var(--transition-hover);
     }
 
     .carousel--css-default-arrow .carousel__button:hover {
-        background-color: var(--siniy1-hover);
+        background-color: rgb(0 104 179 / 10%);
         color: #0D25FF;
     }
 
     .carousel--css-default-arrow .carousel__button--disabled,
     .carousel--css-default-arrow .carousel__button--disabled:hover {
-        background-color: var(--siniy1);
-        opacity: 10%;
+        background-color: transparent;
         cursor: default;
         transition: none;
+        opacity: 20%;
     }
 
     .carousel--css-default-arrow .carousel__button--prev {
@@ -145,7 +145,7 @@
     }
         .carousel--css-default-arrow .carousel__chevron {
             vertical-align: top;
-            fill: #FFFFFF;
+            fill: var(--siniy1);
         }
 
 

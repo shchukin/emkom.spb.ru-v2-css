@@ -4,7 +4,7 @@
     padding-bottom: var(--bottom-padding);
 }
     .service__preview {
-        height: 607px;
+        height: 416px;
     }
         .service__image {
             vertical-align: top;
@@ -45,7 +45,7 @@
 
     }
         .service__preview {
-            height: 644px;
+            height: 538px;
         }
             .service__image {
 
@@ -81,7 +81,7 @@
         /*padding-bottom: var(--bottom-padding);*/
     }
         .service__preview {
-            height: 310px;
+            height: 276px;
         }
             .service__image {
                 /*vertical-align: top;*/
