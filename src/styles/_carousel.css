@@ -233,7 +233,7 @@
                             display: block;
                             width: 350px;
                             height: 403px;
-                            background-image: url("../vectors/work-laptop-frame.svg");
+                            background-image: url("../vectors/construction-laptop-frame.svg");
                             background-size: contain;
                             background-repeat: no-repeat;
                             background-position: center center;
@@ -283,7 +283,7 @@
                             .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+5)::before {
                                 width: 360px;
                                 height: 422px;
-                                background-image: url("../vectors/work-monitor-frame.svg");
+                                background-image: url("../vectors/construction-monitor-frame.svg");
                             }
 
                         .carousel--css-skin-full-portfolio .swiper-slide:nth-child(5n+4) {
@@ -388,22 +388,10 @@
                         left: 864px;
                         top: 0;
                     }
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--06::after {
-                                content: "";
-                                position: absolute;
-                                top: 100%;
-                                margin-top: 7px;
-                                display: block;
-                                width: 370px;
-                                height: 320px;
-                                background-image: url("../vectors/task-frame-laptop.svg");
-                                background-size: contain;
-                                background-repeat: no-repeat;
-                                background-position: center center;
-                        }
 
                     .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--07 {
-                        display: none;
+                        left: 84px;
+                        top: 224px;
                     }
 
     .carousel--css-skin-short-portfolio-on-desktop .carousel__pagination {
@@ -439,20 +427,6 @@
                             top: 185px;
                             bottom: auto;
                         }
-                            .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--01::after {
-                                content: "";
-                                position: absolute;
-                                top: 156px;
-                                right: 318px;
-                                margin-top: 29px;
-                                display: block;
-                                width: 399px;
-                                height: 346px;
-                                background-image: url("../vectors/task-frame-monitor.svg");
-                                background-size: contain;
-                                background-repeat: no-repeat;
-                                background-position: center center;
-                            }
 
                         .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--02 {
                             left: 638px;
@@ -481,19 +455,6 @@
                             left: 1274px;
                             top: 0;
                         }
-                            .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--06::after {
-                                    /*content: "";*/
-                                    /*position: absolute;*/
-                                    top: 100%;
-                                    margin-top: 24px;
-                                    /*display: block;*/
-                                    width: 399px;
-                                    height: 346px;
-                                    background-image: url("../vectors/task-frame-monitor.svg");
-                                    /*background-size: contain;*/
-                                    /*background-repeat: no-repeat;*/
-                                    /*background-position: center center;*/
-                            }
 
                         .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--07 {
                             display: block;

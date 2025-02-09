@@ -149,15 +149,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--siniy1);
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    background-image: url("../vectors/work-laptop-frame.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
-    transition: background-color var(--transition-hover);
+    transition: none var(--transition-hover);
 }
 
 .work--new:hover {
@@ -165,15 +167,24 @@
     align-items: center;
     justify-content: center;
     background-color: var(--siniy1-hover);
-    color: #0F33A9;
+    background-image: url("../vectors/work-laptop-frame.svg"), linear-gradient(rgb(179 197 210 / 18%), var(--siniy1));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+    .work--new::before {
+   
+    }
+
+
+
+
 
 @media (width < 740px) {
 
     .work--new {
         width: 340px;
         height: 294px;
-        clip-path: path("M255 0H85L0 147L85 294H255L340 147L255 0Z");
         background-color: #00F0FF;
         color: #0F33A9;
     }
@@ -181,7 +192,6 @@
             .work--new {
                 width: 300px;
                 height: 260px;
-                clip-path: path("M225 0H75L0 130L75 260H225L300 130L225 0Z");
             }
         }
 }
