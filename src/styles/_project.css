@@ -3,7 +3,7 @@
     padding-bottom: var(--bottom-padding);
 }
     .project__preview {
-        height: 607px;
+        height: 416px;
     }
         .project__image {
             vertical-align: top;
@@ -93,7 +93,7 @@
         /*padding-bottom: var(--bottom-padding);*/
     }
         .project__preview {
-            height: 644px;
+            height: 538px;
         }
             .project__image {
                 /*vertical-align: top;*/
@@ -168,7 +168,7 @@
         overflow: hidden; /* обрезаем карусель */
     }
         .project__preview {
-            height: 310px;
+            height: 276px;
         }
             .project__image {
                 /*vertical-align: top;*/
