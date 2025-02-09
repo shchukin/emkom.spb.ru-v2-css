@@ -334,67 +334,67 @@
 
 /* Short portfolio on desktop */
 
-.carousel--css-skin-short-portfolio-on-desktop {
+.carousel--css-skin-short-portfolio {
 
 }
 
 @media (740px <= width) {
 
-    .carousel--css-skin-short-portfolio-on-desktop .carousel {
+    .carousel--css-skin-short-portfolio .carousel {
 
     }
-        .carousel--css-skin-short-portfolio-on-desktop .carousel__widget {
+        .carousel--css-skin-short-portfolio .carousel__widget {
 
         }
-            .carousel--css-skin-short-portfolio-on-desktop .carousel__widget .swiper {
+            .carousel--css-skin-short-portfolio .carousel__widget .swiper {
 
             }
-                .carousel--css-skin-short-portfolio-on-desktop .carousel__widget .swiper-wrapper {
+                .carousel--css-skin-short-portfolio .carousel__widget .swiper-wrapper {
                     width: auto !important;
-                    height: 443px !important;
+                    height: 442px !important;
                     margin-left: auto;
                     margin-right: auto;
                 }
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide {
+                    .carousel--css-skin-short-portfolio .swiper-slide {
                         position: absolute;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--01 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--01 {
                         left: 84px;
                         top: 0;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--02 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--02 {
                         left: 279px;
                         top: 112px;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--03 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--03 {
                         left: 474px;
                         top: 0;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--04 {
-                        left: 475px;
+                    .carousel--css-skin-short-portfolio .swiper-slide--04 {
+                        left: 474px;
                         top: 224px;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--05 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--05 {
                         left: 669px;
                         top: 112px;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--06 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--06 {
                         left: 864px;
                         top: 0;
                     }
 
-                    .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--07 {
+                    .carousel--css-skin-short-portfolio .swiper-slide--07 {
                         left: 84px;
                         top: 224px;
                     }
 
-    .carousel--css-skin-short-portfolio-on-desktop .carousel__pagination {
+    .carousel--css-skin-short-portfolio .carousel__pagination {
         display: none;
     }
 
@@ -402,64 +402,53 @@
 
     @media (1850px <= width) {
 
-        .carousel--css-skin-short-portfolio-on-desktop .carousel {
+        .carousel--css-skin-short-portfolio .carousel {
 
         }
-            .carousel--css-skin-short-portfolio-on-desktop .carousel__widget {
-                /*overflow: hidden;*/
+            .carousel--css-skin-short-portfolio .carousel__widget {
+
             }
-                .carousel--css-skin-short-portfolio-on-desktop .carousel__widget .swiper {
-                    margin-left: -658px; /* не совсем по-цвентру */
-                    margin-right: -500px;
+                .carousel--css-skin-short-portfolio .carousel__widget .swiper {
+
                 }
-                    .carousel--css-skin-short-portfolio-on-desktop .carousel__widget .swiper-wrapper {
-                        width: 1671px !important;
-                        height: 901px !important;
-                        /*margin-left: auto;*/
-                        /*margin-right: auto;*/
+                    .carousel--css-skin-short-portfolio .carousel__widget .swiper-wrapper {
+                        height: 600px !important;
                     }
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide {
-                            /*position: absolute;*/
+                        .carousel--css-skin-short-portfolio .swiper-slide {
+
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--01 {
-                            left: 319px;
-                            top: 185px;
-                            bottom: auto;
+                        .carousel--css-skin-short-portfolio .swiper-slide--01 {
+                            left: 142px;
+                            /*top: 0;*/
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--02 {
-                            left: 638px;
-                            top: 0;
-                            bottom: auto;
+                        .carousel--css-skin-short-portfolio .swiper-slide--02 {
+                            left: 406px;
+                            top: 152px;
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--03 {
-                            left: 638px;
-                            top: 370px;
+                        .carousel--css-skin-short-portfolio .swiper-slide--03 {
+                            left: 669px;
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--04 {
-                            left: 956px;
-                            bottom: auto;
-                            top: 185px;
+                        .carousel--css-skin-short-portfolio .swiper-slide--04 {
+                            left: 669px;
+                            top: 305px;
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--05 {
-                            left: 956px;
-                            bottom: 0;
-                            top: auto;
+                        .carousel--css-skin-short-portfolio .swiper-slide--05 {
+                            left: 932px;
+                            top: 152px;
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--06 {
-                            left: 1274px;
-                            top: 0;
+                        .carousel--css-skin-short-portfolio .swiper-slide--06 {
+                            left: 1196px;
                         }
 
-                        .carousel--css-skin-short-portfolio-on-desktop .swiper-slide--07 {
-                            display: block;
-                            left: 319px;
-                            bottom: 0;
+                        .carousel--css-skin-short-portfolio .swiper-slide--07 {
+                            left: 142px;
+                            top: 305px;
                         }
     }
 }

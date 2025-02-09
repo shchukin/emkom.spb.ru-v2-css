@@ -121,18 +121,18 @@
         background-size: 1920px 831px, 100% 100%;
     }
         .index__intro {
-
+            padding-top: 213px;
         }
             .index__item {
-                top: 24px;
+                top: 27px;
             }
 
             .index__item--first {
-                right: calc(50% + 173px);
+                right: calc(50% + 169px);
             }
 
             .index__item--last {
-                left: calc(50% + 173px);
+                left: calc(50% + 169px);
             }
                 .index__sub-heading {
                     font-size: 34px;
