@@ -83,6 +83,15 @@
 }
 
 
+.button--outline {
+    box-shadow: inset 0 0 0 1px #FFFFFF;
+    background-color: rgb(255 255 255 / 13%);
+    color: #FFFFFF;
+}
+
+.button--outline:hover {
+    background-color: rgb(255 255 255 / 24%);
+}
 
 
 .button--submit {
