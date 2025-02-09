@@ -1,10 +1,17 @@
 .geo {
-    height: 610px;
-    background-image: url("../images/geo/geo-desktop.svg"), linear-gradient(#0389FF, #0D25FF);
-    background-size: 1428px 610px, 100% 100%;
+    height: 741px;
+    background-image: url("../images/geo/geo-laptop@1x.png");
+    background-size: 1850px 741px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
 }
+
+@media (min-resolution: 1.5dppx) {
+    .geo {
+        background-image: url("../images/geo/geo-laptop@2x.png");
+    }
+}
+
     .geo__wrap {
 
     }
@@ -17,8 +24,15 @@
 @media (1850px <= width) {
 
     .geo {
-        height: 826px;
-        background-size: 1920px 820px, 100% 100%;
+        height: 891px;
+        background-image: url("../images/geo/geo-monitor@1x.png");
+        background-size: 2590px 891px;
+    }
+
+    @media (min-resolution: 1.5dppx) {
+        .geo {
+            background-image: url("../images/geo/geo-monitor@2x.png");
+        }
     }
         .geo__wrap {
 
@@ -35,11 +49,19 @@
     .geo {
         height: auto;
         min-height: 621px;
-        background-image: url("../images/geo/geo-smartphone.svg"), linear-gradient(#0389FF, #0D25FF);
-        background-size: 740px 621px, 100% 100%;
+        background-image: url("../images/geo/geo-smartphone@1x.jpg");
+        background-size: 740px 621px;
         background-repeat: no-repeat;
         background-position: center top;
     }
+
+    @media (min-resolution: 1.5dppx) {
+
+        .geo {
+            background-image: url("../images/geo/geo-smartphone@2x.jpg");
+        }
+    }
+
         .geo__list {
             display: block;
             max-width: 400px;
@@ -52,10 +74,10 @@
             .geo__item {
                 position: relative;
                 padding-left: 24px;
-                margin-bottom: 11px;
+                margin-bottom: 14px;
                 font-weight: 500;
-                font-size: 17px;
-                line-height: 24px;
+                font-size: 14px;
+                line-height: 20px;
                 color: #FFFFFF;
             }
 
@@ -65,7 +87,6 @@
                     line-height: 20px;
                 }
             }
-
                 .geo__item::before {
                     content: "";
                     display: block;
@@ -74,7 +95,7 @@
                     top: 7px;
                     width: 10px;
                     height: 10px;
-                    background-color: #00F0FF;
+                    background-color: var(--goluboy);
                     border-radius: 50%;
                 }
 }

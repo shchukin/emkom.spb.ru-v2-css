@@ -1,8 +1,5 @@
 .portfolio {
     padding-top: 3px;
-    padding-bottom: 140px;
-    display: flex;
-    flex-direction: column;
 }
     .portfolio__heading {
         margin-top: 51px;
@@ -23,26 +20,30 @@
 
             }
 
-    .portfolio__map-heading {
-        display: none;
-    }
 
     .portfolio__map {
-        order: -1;
+        position: relative;
+        border-bottom: 1px solid #FFFFFF;
     }
-
+        .portfolio__map-heading {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 133px;
+            text-align: center;
+            color: #FFFFFF;
+        }
 
 
 @media (1850px <= width) {
 
     .portfolio {
         /*padding-top: 3px;*/
-        padding-bottom: 180px;
         /*display: flex;*/
         /*flex-direction: column;*/
     }
         .portfolio__heading {
-            margin-top: 47px;
+            margin-top: 45px;
             /*margin-bottom: 0;*/
             /*font-weight: 600;*/
             font-size: 50px;
@@ -60,13 +61,12 @@
 
                 }
 
-        .portfolio__map-heading {
-            /*display: none;*/
-        }
-
         .portfolio__map {
-            /*order: -1;*/
+
         }
+            .portfolio__map-heading {
+
+            }
 }
 
 
@@ -77,8 +77,6 @@
     .portfolio {
         padding-top: 0;
         padding-bottom: 0;
-        /*display: flex;*/
-        /*flex-direction: column;*/
     }
         .portfolio__heading {
             order: 1;
@@ -100,20 +98,14 @@
                 padding-bottom: 23px;
             }
 
-        .portfolio__map-heading {
-            order: 3;
-            margin-top: 28px;
-            margin-bottom: 0;
-            display: block;
-            font-weight: 600;
-            font-size: 30px;
-            line-height: 37px;
-            text-align: center;
-        }
-
         .portfolio__map {
-            order: 4;
-            margin-top: 18px;
-            /*order: -1;*/
+
         }
+            .portfolio__map-heading {
+                position: static;
+                color: #000000;
+                max-width: 180px;
+                margin-left: auto;
+                margin-right: auto;
+            }
 }
