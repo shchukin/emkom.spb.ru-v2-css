@@ -113,6 +113,7 @@
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
+                spaceBetween: 16,
                 autoHeight: true,
                 pagination: {
                     el: $carousel.querySelector('.carousel__pagination'),
