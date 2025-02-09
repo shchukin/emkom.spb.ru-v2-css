@@ -193,31 +193,25 @@
 @media (1850px <= width) {
 
     .work--new {
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*justify-content: center;*/
         background-image: url("../vectors/work-monitor-frame.svg");
-        /*background-size: 100% 100%;*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center center;*/
-        /*font-weight: 500;*/
         font-size: 16px;
         line-height: 20px;
-        /*color: #FFFFFF;*/
-        /*text-decoration: none;*/
-        /*text-align: center;*/
-        /*transition: none var(--transition-hover);*/
+    }
+}
+
+@media (width < 740px) {
+
+    .work--new {
+        width: 278px;
+        height: 240px;
+        background-image: url("../vectors/work-smartphone-frame.svg");
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .work--new:hover {
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*justify-content: center;*/
-        /*background-color: var(--siniy1-hover);*/
-        /*background-image: url("../vectors/work-laptop-frame.svg"), linear-gradient(rgb(179 197 210 / 18%), var(--siniy1));*/
-        /*background-size: 100% 100%;*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center center;*/
+        background-color: transparent;
+        background-image: url("../vectors/work-smartphone-frame.svg");
     }
 }
 
