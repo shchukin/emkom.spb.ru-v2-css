@@ -454,32 +454,29 @@
 }
 
 
-
-
-/* Portfolio on smartphone */
-
 @media (width < 740px) {
 
-    .carousel--css-skin-portfolio-on-smartphone .carousel {
+    .carousel--css-skin-short-portfolio .carousel {
 
     }
-        .carousel--css-skin-portfolio-on-smartphone .carousel__widget {
+        .carousel--css-skin-short-portfolio .carousel__widget {
 
         }
-            .carousel--css-skin-portfolio-on-smartphone .carousel__widget .swiper {
+            .carousel--css-skin-short-portfolio .carousel__widget .swiper {
                 overflow: visible; /* будем обрезать парой уровней выше, у границ экрана, а не контейнера */
             }
-                .carousel--css-skin-portfolio-on-smartphone .swiper-wrapper {
+                .carousel--css-skin-short-portfolio .swiper-wrapper {
 
                 }
-                    .carousel--css-skin-portfolio-on-smartphone .swiper-slide {
+                    .carousel--css-skin-short-portfolio .swiper-slide {
 
                     }
-                    .carousel--css-skin-portfolio-on-smartphone .swiper-slide {
-                        display: flex;
-                        justify-content: center;
-                    }
+                        .carousel--css-skin-short-portfolio .swiper-slide {
+                            display: flex;
+                            justify-content: center;
+                        }
 }
+
 
 
 
