@@ -1,6 +1,10 @@
 .index {
     position: relative;
-    background-color: #005489;
+    background-color: #00578C;
+    background-image: url("../vectors/intro-laptop.svg"), radial-gradient(ellipse at center, #027BC8, #017BC8 31%, #003C62);
+    background-size: 1280px 661px, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
     color: #FFFFFF;
 }
     .index__intro {
@@ -113,7 +117,8 @@
 @media (1850px <= width) {
 
     .index {
-
+        background-image: url("../vectors/intro-monitor.svg"), radial-gradient(ellipse at center, #027BC8, #017BC8 31%, #003C62);
+        background-size: 1920px 831px, 100% 100%;
     }
         .index__intro {
 
@@ -189,11 +194,8 @@
 @media (width < 740px) {
 
     .index {
-        /*position: relative;*/
-        /*padding-top: 3px;*/
-        /*padding-bottom: 7px;*/
-        /*background-color: #005489;*/
-        /*color: #FFFFFF;*/
+        background-image: url("../vectors/intro-smartphone.svg"), linear-gradient(#003C62, #017BC8 69%, #027BC8);
+        background-size: 740px 272px, 100% 100%;
     }
         .index__intro {
             /*position: relative;*/
