@@ -34,28 +34,36 @@
 
 
 .wysiwyg h2 {
+    margin-top: calc(2 * var(--body-line-height));
+    margin-bottom: var(--body-line-height);
     font-weight: 600;
-    font-size: 30px;
-    line-height: 34px;
-    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+@media (1850px <= width) {
+
+    .wysiwyg h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
 }
 
 @media (width < 740px) {
 
     .wysiwyg h2 {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
 .wysiwyg h3 {
     font-weight: 600;
-    text-align: center;
 }
 
 .wysiwyg h4 {
     font-weight: 600;
-    text-align: center;
 }
 
 .wysiwyg h2:first-child,
