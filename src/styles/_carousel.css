@@ -111,7 +111,7 @@
         top: 50%;
         width: 70px;
         height: 70px;
-        margin-top: calc(-35px - 19px); /* 19px высота точек */
+        margin-top: -35px; /* или: margin-top: calc(-35px - 19px); 19px высота точек */
         padding: 0;
         background-color: transparent;
         border: none;
