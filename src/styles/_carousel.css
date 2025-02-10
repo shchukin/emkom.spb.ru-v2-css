@@ -773,16 +773,16 @@
                         grid-template-columns: repeat(6, 174px);
                         gap: 0 46px;
                         /*justify-content: center;*/
-                        /*padding-top: 284px;*/
+                        padding-top: 338px;
                         /*padding-bottom: 306px;*/
-                        /*background-image: url("../vectors/solutions-skeleton-laptop.svg");*/
-                        /*background-size: 1850px 2124px;*/
+                        background-image: url("../vectors/solutions-skeleton-monitor.svg");
+                        background-size: 1934px 2546px; /* должно быть 1920x2546, но в фигме всё криво и по-этому подгоняем */
                         /*background-repeat: no-repeat;*/
                         /*background-position: center top;*/
                     }
                         .carousel--css-skin-solutions-systems .swiper-slide {
                             /*display: flex;*/
-                            /*margin-top: -71px !important;*/
+                            margin-top: -71px !important;
                         }
 
                         .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
