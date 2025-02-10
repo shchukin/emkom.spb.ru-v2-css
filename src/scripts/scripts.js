@@ -283,6 +283,38 @@
             });
         }
 
+        if( $carousel.classList.contains('carousel--js-init-solutions-systems') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: 16,
+                autoHeight: true,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets, но когда добавлено много слайдов с проектами, они не влезают */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-init-solutions-modules') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: 16,
+                autoHeight: true,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets, но когда добавлено много слайдов с проектами, они не влезают */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+            });
+        }
+
     });
 
 
