@@ -65,7 +65,7 @@
                     width: 36px;
                     height: 31px;
                     background-image: url("../vectors/company-arrow-laptop.svg");
-                    background-size: contain;
+                    background-size: 36px 31px;
                     background-repeat: no-repeat;
                     background-position: center center;
                 }
@@ -100,7 +100,6 @@
             background-image: url("../images/about/about-monitor-background@2x.jpg");
         }
     }
-
         .company__content {
             background-image: url("../images/about/about-content-monitor.svg");
             background-size: 1920px 542px;
@@ -136,7 +135,7 @@
                 .company__features {
                     /*position: absolute;*/
                     /*left: 50%;*/
-                    top: 445px;
+                    top: 435px;
                     width: 396px;
                     /*font-weight: 600;*/
                     /*font-size: 18px;*/
@@ -179,32 +178,26 @@
         }
             .company__wrap {
                 /*position: relative;*/
-                padding-top: 14px;
+                padding-top: var(--top-padding);
             }
                 .company__heading {
                     /*margin-top: 0;*/
                     /*margin-bottom: 0;*/
-                    /*font-weight: 600;*/
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
                     /*text-align: center;*/
                     /*color: #FFFFFF;*/
                 }
 
-                @media (width < 350px) {
-                    .company__heading {
-                        font-size: 28px;
-                        line-height: 32px;
-                    }
-                }
-
                 .company__description {
-                    margin-top: 10px;
+                    margin-top: 4px;
                     max-width: 320px;
                     margin-left: auto;
                     margin-right: auto;
-                    font-weight: bold;
-                    font-size: 17px;
-                    line-height: 24px;
-                    color: #FFFFFF;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
                     text-wrap: balance;
                     /*text-align: center;*/
                 }
@@ -212,52 +205,59 @@
                 .company__specialization {
                     position: absolute;
                     left: 50%;
-                    top: 168px;
-                    margin-left: -36px;
-                    font-size: 17px;
-                    line-height: 24px;
-                    color: #00F0FF;
+                    top: 112px;
+                    margin-left: -20px;
+                    width: 120px;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: var(--goluboy);
                     text-align: center;
                     text-transform: none;
                 }
                     .company__specialization::after {
                         background-image: url("../vectors/company-arrow-smartphone.svg");
-                        background-size: 30px 30px;
+                        background-size: 16px 19px;
                         left: 0;
                         right: 0;
                         margin-left: auto;
                         margin-right: auto;
+                        width: 16px;
+                        height: 19px;
                         bottom: 0;
                         top: 100%;
+                        margin-top: 3px;
                     }
 
                 .company__features {
                     position: absolute;
                     left: 50%;
-                    top: 383px;
-                    margin-left: -33px;
-                    width: auto;
-                    font-weight: bold;
-                    font-size: 16px;
-                    line-height: 20px;
-                    color: #00F0FF;
+                    top: 273px;
+                    margin-left: -12px;
+                    width: 140px;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: var(--goluboy);
+                    text-align: center;
+                    text-transform: none;
                 }
 
                 .company__service {
                     display: block;
                     max-width: 310px;
-                    margin: 332px auto 0;
+                    margin: 258px auto 0;
                     padding-left: 0;
-                    padding-bottom: 23px;
+                    padding-bottom: 21px;
                     list-style: none;
                 }
                     .company__service-item {
-                        margin-top: 15px;
+                        margin-top: 6px;
                         position: relative;
-                        padding-left: 16px;
+                        padding-left: 10px;
                         font-weight: 500;
-                        font-size: 17px;
-                        line-height: 24px;
+                        font-size: 13px;
+                        line-height: 15px;
                         color: #FFFFFF;
                     }
 
@@ -268,10 +268,10 @@
                             content: "";
                             position: absolute;
                             left: 0;
-                            top: 11px;
+                            top: 8px;
                             display: block;
-                            width: 4px;
-                            height: 4px;
+                            width: 3px;
+                            height: 3px;
                             background-color: currentColor;
                             border-radius: 50%;
                         }
