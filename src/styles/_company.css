@@ -1,5 +1,5 @@
 .company {
-    height: 682px;
+    height: 514px;
     background-color: #000261;
     background-image: url("../images/about/about-desktop-background@1x.jpg");
     background-size: cover;
@@ -17,7 +17,7 @@
         width: 100%;
         height: 100%;
         background-image: url("../images/about/about-content-laptop.svg");
-        background-size: 1850px 682px;
+        background-size: 1280px 514px;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -90,7 +90,7 @@
 @media (1850px <= width) {
 
     .company {
-        height: 892px;
+        height: 542px;
         /*background-image: url("../images/about/about-desktop-background@1x.jpg");*/
         /*background-size: cover;*/
         /*background-repeat: no-repeat;*/
@@ -107,7 +107,7 @@
             /*width: 100%;*/
             /*height: 100%;*/
             background-image: url("../images/about/about-content-monitor.svg");
-            background-size: 1920px 892px;
+            background-size: 1920px 542px;
             /*background-repeat: no-repeat;*/
             /*background-position: center center;*/
         }
@@ -199,7 +199,7 @@
             /*width: 100%;*/
             /*height: 100%;*/
             background-image: url("../images/about/about-content-smartphone.svg");
-            background-size: 740px 801px;
+            background-size: 360px 471px;
             /*background-repeat: no-repeat;*/
             background-position: center top;
         }
