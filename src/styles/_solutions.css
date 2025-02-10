@@ -295,7 +295,7 @@
             }
 
         .solutions__modules {
-            margin-top: -382px;
+            margin-top: -384px;
             /*padding-bottom: 49px;*/
             /*position: relative;*/
             /*overflow: hidden;*/
@@ -314,7 +314,7 @@
                 .solutions__modules-clip-path {
                     width: 2560px;
                     height: 1070px; /* Высота секции ожидается 852px, так что есть 74 запаса */
-                    clip-path: path("M1487 0L2560 624L2560 1070L0 1070L0 624L1067 0L1280 120L1487 0Z");
+                    clip-path: path("M1483 0L2560 624L2560 1070L0 1070L4 624L1071 0L1280 120L1483 0Z");
                 }
                     .solutions__modules-gradient {
                         /*position: absolute; !* Относительно solutions__modules-background, который равен ширине экрана, а не 1850px. Это чтобы эллипс градиента сжимался. *!*/
