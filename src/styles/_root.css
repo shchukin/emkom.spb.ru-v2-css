@@ -25,6 +25,7 @@
     --goluboy: #0099FF;
     --temno-siniy: #002C4C;
     --seriy-text: #565656;
+    --radial-gradient: radial-gradient(ellipse at center, #027BC8, #013D62);
 }
 
 @media (1850px <= width) {

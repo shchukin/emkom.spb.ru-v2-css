@@ -1,7 +1,7 @@
 .index {
     position: relative;
     background-color: #00578C;
-    background-image: url("../vectors/intro-laptop.svg"), radial-gradient(ellipse at center, #027BC8, #017BC8 31%, #003C62);
+    background-image: url("../vectors/intro-laptop.svg"), var(--radial-gradient);
     background-size: 1280px 661px, 100% 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -117,7 +117,7 @@
 @media (1850px <= width) {
 
     .index {
-        background-image: url("../vectors/intro-monitor.svg"), radial-gradient(ellipse at center, #027BC8, #017BC8 31%, #003C62);
+        background-image: url("../vectors/intro-monitor.svg"), var(--radial-gradient);
         background-size: 1920px 831px, 100% 100%;
     }
         .index__intro {
