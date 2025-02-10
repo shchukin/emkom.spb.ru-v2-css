@@ -1,7 +1,9 @@
 .product {
+    pointer-events: auto;
     display: block;
     width: 342px;
     height: 394px;
+    clip-path: path("M342 99L171 0L0 99V295L171 394L342 295V99Z");
 }
     .product__inner {
         position: relative;

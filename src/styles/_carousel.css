@@ -670,25 +670,11 @@
                     grid-template-columns: repeat(3, minmax(0, 1fr));
                     gap: 14px;
                 }
-                    .carousel--css-skin-certificates .swiper-slide {
 
+                @media (1850px <= width) {
+                    .carousel--css-skin-certificates .swiper-wrapper {
+                        gap: 20px;
                     }
-}
-
-
-@media (1850px <= width) {
-
-    .carousel--css-skin-certificates {
-
-    }
-        .carousel--css-skin-certificates .carousel__widget {
-
-        }
-            .carousel--css-skin-certificates .swiper {
-
-            }
-                .carousel--css-skin-certificates .swiper-wrapper {
-                    gap: 20px;
                 }
                     .carousel--css-skin-certificates .swiper-slide {
 
@@ -711,6 +697,99 @@
 
                 }
                     .carousel--css-skin-certificates .swiper-slide {
+
+                    }
+}
+
+
+
+
+/* Skin Certificates */
+
+.carousel--css-skin-solutions-systems {
+
+}
+
+
+@media (740px <= width) {
+
+    .carousel--css-skin-solutions-systems {
+
+    }
+        .carousel--css-skin-solutions-systems .carousel__widget {
+
+        }
+            .carousel--css-skin-solutions-systems .swiper {
+
+            }
+                .carousel--css-skin-solutions-systems .swiper-wrapper {
+                    display: grid;
+                    grid-template-columns: repeat(6, 155px);
+                    grid-gap: 0 41px;
+                    gap: 0 32px;
+                    justify-content: center;
+                    padding-top: 284px;
+                    padding-bottom: 306px;
+                    background-image: url("../vectors/solutions-skeleton-laptop.svg");
+                    background-size: 1850px 2124px;
+                    background-repeat: no-repeat;
+                    background-position: center top
+                }
+                    .carousel--css-skin-solutions-systems .swiper-slide {
+                        display: flex;
+                        margin-top: -71px !important;
+                    }
+
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
+                        grid-column: span 2
+                    }
+
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
+                        grid-column: span 3
+                    }
+
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4) {
+                        justify-content: flex-end
+                    }
+
+                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4)::before {*/
+                    /*    right: 408px*/
+                    /*}*/
+
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
+                        justify-content: flex-start
+                    }
+
+                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5)::before {*/
+                    /*    left: 408px*/
+                    /*}*/
+
+                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(3) {*/
+                    /*    position: relative;*/
+                    /*    top: 2px*/
+                    /*}*/
+
+
+
+
+}
+
+
+@media (width < 740px) {
+
+    .carousel--css-skin-solutions-systems {
+
+    }
+        .carousel--css-skin-solutions-systems .carousel__widget {
+
+        }
+            .carousel--css-skin-solutions-systems .swiper {
+                overflow: visible; /* Будем обрезать краями браузера */
+            }
+                .carousel--css-skin-solutions-systems .swiper-wrapper {
+
+                }
+                    .carousel--css-skin-solutions-systems .swiper-slide {
 
                     }
 }

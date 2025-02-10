@@ -85,6 +85,8 @@
 
     }
         .solutions__systems-head {
+            position: relative;
+            z-index: 5; /* выше фоновых линий */
             margin-top: 21px;
             display: flex;
             flex-direction: column;
@@ -110,10 +112,12 @@
             }
 
         .solutions__systems-body {
-
+            margin-top: -178px;
+            pointer-events: none;
         }
 
     .solutions__modules {
+        margin-top: -370px;
         position: relative;
         overflow: hidden;
         color: #FFFFFF;
