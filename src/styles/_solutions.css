@@ -48,11 +48,13 @@
         .solutions__features {
             position: relative;
             display: grid;
-            gap: 140px;
+            gap: 120px;
             grid-template-columns: repeat(2, minmax(0, 1fr));
         }
             .solutions__column {
                 margin-bottom: 27px;
+                padding-top: 14px;
+                padding-bottom: 19px;
             }
 
             .solutions__column--left {
@@ -65,8 +67,7 @@
                 .solutions__category {
                     display: inline-block;
                     vertical-align: top;
-                    padding-top: 24px;
-                    padding-bottom: 29px;
+                    padding: 10px;
                     font-weight: 500;
                     font-size: 22px;
                     line-height: 27px;
