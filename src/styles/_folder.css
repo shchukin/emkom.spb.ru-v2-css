@@ -8,7 +8,7 @@
     }
 
     .folder__action {
-        margin-top: 68px;
+        margin-top: 47px;
         text-align: center;
     }
 
@@ -25,7 +25,7 @@
         }
 
         .folder__action {
-            margin-top: 80px;
+            margin-top: 52px;
         }
 }
 
@@ -42,7 +42,7 @@
         }
 
         .folder__action {
-            margin-top: 32px;
+            margin-top: 30px;
             text-align: center;
         }
             .folder__action .button {
