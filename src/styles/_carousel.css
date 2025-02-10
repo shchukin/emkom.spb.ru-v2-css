@@ -854,6 +854,27 @@
                     .carousel--css-skin-solutions-modules .swiper-slide {
 
                     }
+
+
+    @media (1850px <= width) {
+
+        .carousel--css-skin-solutions-modules {
+
+        }
+            .carousel--css-skin-solutions-modules .carousel__widget {
+
+            }
+                .carousel--css-skin-solutions-modules .swiper {
+
+                }
+                    .carousel--css-skin-solutions-modules .swiper-wrapper {
+                        grid-template-columns: repeat(2, 394px);
+                        gap: 0 68px;
+                    }
+                        .carousel--css-skin-solutions-modules .swiper-slide {
+
+                        }
+    }
 }
 
 

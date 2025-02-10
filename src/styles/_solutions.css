@@ -296,7 +296,7 @@
 
         .solutions__modules {
             margin-top: -384px;
-            /*padding-bottom: 49px;*/
+            padding-bottom: 60px;
             /*position: relative;*/
             /*overflow: hidden;*/
             /*color: #FFFFFF;*/
@@ -337,7 +337,6 @@
 
                 .solutions__modules-description {
                     /*max-width: 884px;*/
-                    /*margin-top: 30px;*/
                     /*margin-left: auto;*/
                     /*margin-right: auto;*/
                     /*font-size: var(--body-font-size);*/
