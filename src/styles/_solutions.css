@@ -118,6 +118,7 @@
 
     .solutions__modules {
         margin-top: -370px;
+        padding-bottom: 49px;
         position: relative;
         overflow: hidden;
         color: #FFFFFF;
@@ -134,7 +135,7 @@
         }
             .solutions__modules-clip-path {
                 width: 1850px;
-                height: 926px; /* Высота секции ожидается 821px, так что есть 105px запаса */
+                height: 926px; /* Высота секции ожидается 852px, так что есть 74 запаса */
                 clip-path: path("M1110 0L1850 432L1850 926L0 926L0 432L740 0L926 104L1110 0Z");
             }
                 .solutions__modules-gradient {
@@ -167,5 +168,6 @@
             }
 
         .solutions__modules-body {
+            margin-top: 40px;
             position: relative;
         }

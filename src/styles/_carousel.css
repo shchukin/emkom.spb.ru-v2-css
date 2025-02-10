@@ -704,7 +704,7 @@
 
 
 
-/* Skin Certificates */
+/* Skin Solutions Systems */
 
 .carousel--css-skin-solutions-systems {
 
@@ -725,7 +725,6 @@
                 .carousel--css-skin-solutions-systems .swiper-wrapper {
                     display: grid;
                     grid-template-columns: repeat(6, 155px);
-                    grid-gap: 0 41px;
                     gap: 0 32px;
                     justify-content: center;
                     padding-top: 284px;
@@ -733,7 +732,7 @@
                     background-image: url("../vectors/solutions-skeleton-laptop.svg");
                     background-size: 1850px 2124px;
                     background-repeat: no-repeat;
-                    background-position: center top
+                    background-position: center top;
                 }
                     .carousel--css-skin-solutions-systems .swiper-slide {
                         display: flex;
@@ -741,37 +740,20 @@
                     }
 
                     .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
-                        grid-column: span 2
+                        grid-column: span 2;
                     }
 
                     .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
-                        grid-column: span 3
+                        grid-column: span 3;
                     }
 
                     .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4) {
-                        justify-content: flex-end
+                        justify-content: flex-end;
                     }
-
-                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4)::before {*/
-                    /*    right: 408px*/
-                    /*}*/
 
                     .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
-                        justify-content: flex-start
+                        justify-content: flex-start;
                     }
-
-                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5)::before {*/
-                    /*    left: 408px*/
-                    /*}*/
-
-                    /*.carousel--css-skin-solutions-systems .swiper-slide:nth-child(1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(3) {*/
-                    /*    position: relative;*/
-                    /*    top: 2px*/
-                    /*}*/
-
-
-
-
 }
 
 
@@ -790,6 +772,59 @@
 
                 }
                     .carousel--css-skin-solutions-systems .swiper-slide {
+
+                    }
+}
+
+
+
+
+
+/* Skin Solutions modules */
+
+.carousel--css-skin-solutions-modules {
+
+}
+
+
+@media (740px <= width) {
+
+    .carousel--css-skin-solutions-modules {
+
+    }
+        .carousel--css-skin-solutions-modules .carousel__widget {
+
+        }
+            .carousel--css-skin-solutions-modules .swiper {
+
+            }
+                .carousel--css-skin-solutions-modules .swiper-wrapper {
+                    display: grid;
+                    grid-template-columns: repeat(2, 342px);
+                    gap: 0 57px;
+                    justify-content: center;
+                }
+                    .carousel--css-skin-solutions-modules .swiper-slide {
+
+                    }
+}
+
+
+@media (width < 740px) {
+
+    .carousel--css-skin-solutions-modules {
+
+    }
+        .carousel--css-skin-solutions-modules .carousel__widget {
+
+        }
+            .carousel--css-skin-solutions-modules .swiper {
+                overflow: visible; /* Будем обрезать краями браузера */
+            }
+                .carousel--css-skin-solutions-modules .swiper-wrapper {
+
+                }
+                    .carousel--css-skin-solutions-modules .swiper-slide {
 
                     }
 }
