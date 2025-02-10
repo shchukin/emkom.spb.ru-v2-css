@@ -33,7 +33,7 @@
             top: 0;
             right: 0;
             bottom: 0;
-            background-image: linear-gradient(rgb(161 188 207 / 26%), var(--siniy1));
+            background-image: var(--hex-gradient);
             clip-path: path("M189 0H63L0 109L63 218H189L252 109L189 0Z"); /* Повторяем маску из того, что выше, а то иногда этот градиент ключит и прорывается наружу */
             transition: opacity var(--transition-hover);
         }

@@ -26,6 +26,7 @@
     --temno-siniy: #002C4C;
     --seriy-text: #565656;
     --radial-gradient: radial-gradient(ellipse at center, #027BC8, #013D62);
+    --hex-gradient: linear-gradient(rgb(145 179 204 / 33%), var(--siniy1));
 }
 
 @media (1850px <= width) {
