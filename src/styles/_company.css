@@ -22,23 +22,24 @@
     }
         .company__wrap {
             position: relative;
-            padding-top: 30px;
+            padding-top: 17px;
         }
             .company__heading {
                 margin-top: 0;
                 margin-bottom: 0;
-                font-weight: 600;
-                font-size: 40px;
-                line-height: 49px;
-                text-align: center;
                 color: #FFFFFF;
+                font-weight: 500;
+                font-size: 34px;
+                line-height: 48px;
+                text-transform: uppercase;
+                text-align: center;
             }
 
             .company__description {
-                margin-top: 26px;
+                margin-top: 2px;
                 font-weight: 500;
-                font-size: 22px;
-                line-height: 28px;
+                font-size: 17px;
+                line-height: 27px;
                 color: #FFFFFF;
                 text-align: center;
             }
@@ -46,21 +47,22 @@
             .company__specialization {
                 position: absolute;
                 left: 50%;
-                top: 186px;
-                margin-left: -479px;
-                font-weight: bold;
-                font-size: 22px;
-                line-height: 27px;
+                top: 156px;
+                margin-left: -537px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
                 color: #FFFFFF;
                 text-transform: uppercase;
             }
                 .company__specialization::after {
                     position: absolute;
-                    right: -9px;
-                    bottom: -5px;
+                    left: 100%;
+                    top: -2px;
+                    margin-left: 18px;
                     content: "";
                     display: block;
-                    width: 53px;
+                    width: 36px;
                     height: 31px;
                     background-image: url("../vectors/company-arrow-laptop.svg");
                     background-size: contain;
@@ -71,13 +73,13 @@
             .company__features {
                 position: absolute;
                 left: 50%;
-                margin-left: 156px;
-                top: 465px;
-                width: 300px;
-                font-weight: 500;
-                font-size: 22px;
-                line-height: 33px;
+                top: 394px;
+                width: 368px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
                 color: #FFFFFF;
+                text-transform: uppercase;
                 text-align: center;
             }
 
@@ -118,8 +120,6 @@
                     /*margin-top: 0;*/
                     /*margin-bottom: 0;*/
                     /*font-weight: 600;*/
-                    font-size: 50px;
-                    line-height: 58px;
                     /*text-align: center;*/
                     /*color: #FFFFFF;*/
                 }
@@ -210,8 +210,6 @@
                     /*margin-top: 0;*/
                     /*margin-bottom: 0;*/
                     /*font-weight: 600;*/
-                    font-size: 30px;
-                    line-height: 38px;
                     /*text-align: center;*/
                     /*color: #FFFFFF;*/
                 }
