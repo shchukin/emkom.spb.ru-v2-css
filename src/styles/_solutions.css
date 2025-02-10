@@ -271,7 +271,10 @@
                 /*flex-direction: column;*/
             }
                 .solutions__systems-heading {
-                    /*margin-top: 20px;*/
+                    margin-top: 30px;
+                    max-width: 660px;
+                    margin-left: auto;
+                    margin-right: auto;
                     /*margin-bottom: 0;*/
                     /*font-weight: 600;*/
                     /*font-size: 40px;*/
@@ -291,7 +294,7 @@
                 }
 
             .solutions__systems-body {
-                /*margin-top: -178px;*/
+                margin-top: -228px;
                 /*pointer-events: none;*/
             }
 
