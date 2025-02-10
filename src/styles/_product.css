@@ -293,20 +293,87 @@
 
 
 
+@media (width < 740px) {
 
-/*@media (width < 740px) {*/
+    .product {
+        /*pointer-events: auto;*/
+        /*display: block;*/
+        width: 278px;
+        height: 320px;
+        clip-path: path("M278 80L139 0L0.00543976 80L0 240L139 320L278 240V80Z");
+    }
+        .product__inner {
+            transform-style: unset;
+            transition: none;
+        }
 
-/*        .product__inner {*/
-/*            transform-style: unset;*/
-/*            transition: none;*/
-/*        }*/
+        .product:hover .product__inner {
+            transform: none;
+        }
+            .product__preview {
+                /*position: absolute;*/
+                /*left: 0;*/
+                /*top: 0;*/
+                /*right: 0;*/
+                /*bottom: 0;*/
+            }
+                .product__image {
+                    /*vertical-align: top;*/
+                    /*width: 100%;*/
+                    /*height: 100%;*/
+                    /*object-fit: cover;*/
+                }
 
-/*        .product:hover .product__inner {*/
-/*            transform: none;*/
-/*        }*/
+                .product__preview::after {
+                    /*content: "";*/
+                    /*position: absolute;*/
+                    /*left: 0;*/
+                    /*top: 0;*/
+                    /*right: 0;*/
+                    /*bottom: 0;*/
+                    /*background-image: var(--hex-gradient);*/
+                    /*transition: opacity var(--transition-hover);*/
+                }
 
-/*        .product__side--back {*/
-/*            display: none;*/
-/*        }*/
-/*}*/
+            .product__side {
+                /*position: absolute;*/
+                /*left: 0;*/
+                /*top: 0;*/
+                /*right: 0;*/
+                /*bottom: 0;*/
+                /*display: flex;*/
+                /*flex-direction: column;*/
+                /*align-items: center;*/
+                /*color: #FFFFFF;*/
+                /*text-align: center;*/
+                /*backface-visibility: hidden;*/
+                clip-path: path("M278 80L139 0L0.00543976 80L0 240L139 320L278 240V80Z");
+            }
+
+            .product__side--front {
+                /*transform: rotateX(0deg);*/
+                /*justify-content: flex-end;*/
+            }
+                .product__front-heading {
+                    /*position: relative;*/
+                    /*margin-top: 0;*/
+                    /*margin-bottom: 64px;*/
+                    /*display: flex;*/
+                    /*flex-direction: column;*/
+                    /*justify-content: center;*/
+                    /*min-height: 72px;*/
+                    /*font-weight: bold;*/
+                    /*font-size: 17px;*/
+                    /*line-height: 24px;*/
+                    /*color: #FFFFFF;*/
+                    /*text-align: center;*/
+                }
+
+
+            .product__side--back {
+                display: none;
+            }
+}
+
+
 
