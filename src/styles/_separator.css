@@ -6,16 +6,6 @@
 }
 
 
-@media (1850px <= width) {
-
-    .separator {
-        height: 39px;
-        border-top-width: 13px;
-        border-bottom-width: 13px;
-    }
-}
-
-
 
 @media (width < 740px) {
 
