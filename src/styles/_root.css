@@ -27,6 +27,7 @@
     --seriy-text: #565656;
     --radial-gradient: radial-gradient(ellipse at center, #027BC8, #013D62);
     --linear-gradient: linear-gradient(#027BC8, #017BC8 31%, #003C62);
+    --linear-gradient-inverted: linear-gradient(#003C62, #017BC8 69%, #017BC8);
     --hex-gradient: linear-gradient(rgb(145 179 204 / 33%), var(--siniy1));
 }
 
