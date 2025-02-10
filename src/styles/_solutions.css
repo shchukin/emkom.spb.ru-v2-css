@@ -353,3 +353,146 @@
                 /*position: relative;*/
             }
 }
+
+
+
+@media (width < 740px) {
+
+    .solutions {
+
+    }
+        .solutions__head {
+            display: none;
+        }
+            .solutions__features {
+                /*position: relative;*/
+                display: block;
+                /*gap: 120px;*/
+                /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+            }
+                .solutions__column {
+                    /*margin-bottom: 27px;*/
+                    /*padding-top: 14px;*/
+                    /*padding-bottom: 19px;*/
+                }
+
+                .solutions__column--left {
+                    /*text-align: right;*/
+                }
+
+                .solutions__column--right {
+
+                }
+                    .solutions__category {
+                 /*       display: inline-block;
+                        vertical-align: top;
+                        padding: 10px;
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        text-decoration: 1.5px underline transparent;
+                        text-underline-offset: 2px;
+                        transition: text-decoration-color var(--transition-hover);
+                       text-transform: uppercase;
+                        */
+                    }
+
+                    .solutions__category:hover {
+                        /*text-decoration-color: currentColor;*/
+                    }
+
+        .solutions__systems {
+            padding-top: 20px;
+        }
+            .solutions__systems-head {
+                /*position: relative;*/
+                /*z-index: 5; !* выше фоновых линий *!*/
+                margin-top: 0;
+                display: block;
+                /*flex-direction: column;*/
+            }
+                .solutions__systems-heading {
+                    margin-top: 0;
+                    /*margin-bottom: 0;*/
+                    /*font-weight: 600;*/
+                    /*font-size: 40px;*/
+                    /*line-height: 49px;*/
+                    /*text-align: center;*/
+                    color: inherit;
+                }
+
+                .solutions__systems-description {
+                    /*order: -1;*/
+                    /*max-width: 1168px;*/
+                    margin-top: 12px;
+                    /*margin: 0 auto;*/
+                    /*font-size: var(--body-font-size);*/
+                    /*line-height: var(--body-line-height);*/
+                    /*text-align: center;*/
+                    color: inherit;
+                }
+
+            .solutions__systems-body {
+                margin-top: 20px;
+                background-image: var(--linear-gradient);
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+
+        .solutions__modules {
+            margin-top: 0;
+            padding-bottom: 0;
+            padding-top: 28px;
+            /*position: relative;*/
+            /*overflow: hidden;*/
+            color: inherit;
+        }
+            .solutions__modules-background {
+                display: none;
+            }
+                .solutions__modules-clip-path {
+                    /*width: 1850px;*/
+                    /*height: 926px; !* Высота секции ожидается 852px, так что есть 74 запаса *!*/
+                    /*clip-path: path("M1100 0L1850 432L1850 926L0 926L4 432L750 0L925 100L1100 0Z");*/
+                }
+                    .solutions__modules-gradient {
+                        /*position: absolute; !* Относительно solutions__modules-background, который равен ширине экрана, а не 1850px. Это чтобы эллипс градиента сжимался. *!*/
+                        /*left: 0;*/
+                        /*top: 0;*/
+                        /*right: 0;*/
+                        /*bottom: 0;*/
+                        /*background-image: var(--radial-gradient);*/
+                    }
+
+            .solutions__modules-head {
+                /*position: relative;*/
+                padding-top: 0;
+            }
+                .solutions__modules-heading {
+                    /*margin-top: 0;*/
+                    /*margin-bottom: 0;*/
+                    /*text-align: center;*/
+                }
+
+                .solutions__modules-description {
+                    /*max-width: 884px;*/
+                    margin-top: 12px;
+                    /*margin-left: auto;*/
+                    /*margin-right: auto;*/
+                    /*font-size: var(--body-font-size);*/
+                    /*line-height: var(--body-line-height);*/
+                    /*text-align: center;*/
+                }
+
+            .solutions__modules-body {
+                /*margin-top: 40px;*/
+                /*position: relative;*/
+                margin-top: 20px;
+                background-image: var(--linear-gradient);
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+}
+
+

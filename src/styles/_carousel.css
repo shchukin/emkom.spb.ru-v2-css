@@ -819,8 +819,13 @@
 
                 }
                     .carousel--css-skin-solutions-systems .swiper-slide {
-
+                        display: flex;
+                        justify-content: center;
                     }
+
+        .carousel--css-skin-solutions-systems .carousel__pagination {
+            color: #FFFFFF;
+        }
 }
 
 
@@ -893,8 +898,13 @@
 
                 }
                     .carousel--css-skin-solutions-modules .swiper-slide {
-
+                        display: flex;
+                        justify-content: center;
                     }
+
+        .carousel--css-skin-solutions-modules .carousel__pagination {
+            color: #FFFFFF;
+        }
 }
 
 

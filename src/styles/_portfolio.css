@@ -75,7 +75,7 @@
             padding-top: 38px;
             padding-bottom: 18px;
             background-color: #0072BB;
-            background-image: linear-gradient(#027BC8, #017BC8 31%, #003C62);
+            background-image: var(--linear-gradient);
             color: #FFFFFF;
         }
             .portfolio__list-wrap {
