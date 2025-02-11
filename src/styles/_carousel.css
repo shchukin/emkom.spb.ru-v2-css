@@ -739,11 +739,14 @@
                         margin-top: -71px !important;
                     }
 
-                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
                         grid-column: span 2;
                     }
 
-                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),
+                    .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
                         grid-column: span 3;
                     }
 
@@ -785,11 +788,14 @@
                             margin-top: -71px !important;
                         }
 
-                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
+                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+1),
+                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+2),
+                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+3) {
                             /*grid-column: span 2;*/
                         }
 
-                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),.carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
+                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+4),
+                        .carousel--css-skin-solutions-systems .swiper-slide:nth-child(5n+5) {
                             /*grid-column: span 3;*/
                         }
 
