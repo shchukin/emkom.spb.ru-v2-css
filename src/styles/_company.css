@@ -1,6 +1,6 @@
 .company {
     height: 514px;
-    background-color: #000261;
+    background-color: var(--siniy1);
     background-image: url("../images/about/about-laptop-background@1x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
