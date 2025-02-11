@@ -18,11 +18,11 @@
 }
 
 .alert--success {
-    background-color: #E4BB6B;
+    background-color: var(--siniy1-hover);
 }
 
 .alert--danger {
-    background-color: #FF7502;
+    background-color: #FF9B48;
 }
 
     .alert__label {
