@@ -36,12 +36,12 @@
                 }
 
                 .menu__link:hover {
-                    text-decoration-color: currentColor;
+                    color: #07F0FF;
                 }
 
                 .menu__link--current,
                 .menu__link--current:hover {
-                    color: #07F0FF;
+                    text-decoration-color: currentColor;
                 }
 
                 .menu__sub-menu {
