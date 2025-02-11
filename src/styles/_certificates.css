@@ -12,7 +12,7 @@
     }
 
     .certificates__list {
-        margin-top: 30px;
+        margin-top: var(--top-padding);
     }
         .certificates__item {
 
