@@ -5,7 +5,7 @@
     --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
     --transition-hover: 100ms ease;
     /*--transition-show: 1200ms var(--ease-out-quint);*/
-    --image-fallback: #DFF3FF;
+    --image-fallback: var(--siniy1);
     --container-padding: 24px;
 
     --input-border: #B3B3B3;
