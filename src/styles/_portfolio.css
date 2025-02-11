@@ -11,6 +11,12 @@
         text-align: center;
     }
 
+    .portfolio__description {
+        margin-top: var(--top-padding);
+        max-width: 1380px;
+        text-align: center;
+    }
+
     .portfolio__list {
         margin-top: var(--top-padding);
         overflow: hidden; /* обрезаем пустые гексагоны и карусель на смартфонах */

@@ -15,7 +15,7 @@
     --disabled-background: #FAFAFA;
     --disabled-color: #C9C9C9;
     --error: #FF0033;
-    --top-padding: 13px;
+    --top-padding: 20px;
     --bottom-padding: calc(var(--top-padding) * 2);
     --header-height: 102px;
     --tiles-gap: 20px;
@@ -34,7 +34,7 @@
 @media (1850px <= width) {
     :root {
         --container-padding: 60px;
-        --top-padding: 20px;
+        --top-padding: 30px;
         --body-font-size: 18px;
         --body-line-height: 29px;
         --tiles-gap: 24px;
@@ -45,7 +45,7 @@
     :root {
         --header-height: 90px;
         --container-padding: 16px;
-        --top-padding: 10px;
+        --top-padding: 14px;
         --body-font-size: 14px;
         --body-line-height: 20px;
         --tiles-gap: 12px;
