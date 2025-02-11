@@ -357,6 +357,7 @@
                 }
                     .carousel--css-skin-short-portfolio .swiper-slide {
                         position: absolute;
+                        pointer-events: none; /* чтобы не наезжал на соседний гексагон уголками */
                     }
 
                     .carousel--css-skin-short-portfolio .swiper-slide--01 {
