@@ -359,7 +359,7 @@
 @media (width < 740px) {
 
     .solutions {
-
+        overflow: hidden; /* Обрезаем карусели */
     }
         .solutions__head {
             display: none;

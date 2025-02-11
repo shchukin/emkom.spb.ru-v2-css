@@ -51,4 +51,12 @@
     }
 }
 
+@media (width < 740px) {
+
+    .logo--larger {
+        width: 134px;
+        height: 34px;
+    }
+}
+
 
