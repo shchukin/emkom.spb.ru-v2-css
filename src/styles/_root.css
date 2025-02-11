@@ -17,7 +17,7 @@
     --error: #FF0033;
     --top-padding: 13px;
     --bottom-padding: calc(var(--top-padding) * 2);
-    --header-height: 140px;
+    --header-height: 102px;
     --tiles-gap: 20px;
 
     --siniy1: #0068B2;

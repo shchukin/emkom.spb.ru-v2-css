@@ -11,8 +11,8 @@
         align-items: center;
     }
         .menu__navigation {
-            margin-left: 253px;
-            margin-right: 60px;
+            margin-left: 263px;
+            margin-right: 110px;
             flex-grow: 1;
             display: flex;
             align-items: center;
@@ -30,13 +30,13 @@
                     line-height: 21px;
                     color: #FFFFFF;
                     text-transform: uppercase;
-                    text-decoration: 2.3px underline transparent;
+                    text-decoration: 2px underline transparent;
                     text-underline-offset: 10px;
                     transition: text-decoration-color var(--transition-hover);
                 }
 
                 .menu__link:hover {
-                    text-decoration-color: #00F0FF;
+                    text-decoration-color: currentColor;
                 }
 
                 .menu__link--current,
@@ -49,9 +49,8 @@
                 }
 
         .menu__contacts {
-            margin-top: -6px;
+            margin-top: -8px;
             margin-left: auto;
-            width: 277px;
             flex-shrink: 0;
         }
             .menu__phone {
@@ -60,9 +59,9 @@
                 align-items: center;
                 gap: 10px;
                 font-weight: 400;
-                font-size: 28px;
-                line-height: 34px;
-                color: #FFFFFF;
+                font-size: 18px;
+                line-height: 24px;
+                color: #D1D3D4;
                 text-decoration: none;
             }
                 .menu__tel-icon {
@@ -75,7 +74,10 @@
             }
 
             .menu__request {
-                margin-top: 8px;
+                margin-top: 10px;
+                display: block;
+                width: fit-content;
+                margin-left: auto;
             }
 
 
@@ -95,8 +97,8 @@
             /*align-items: center;*/
         }
             .menu__navigation {
-                margin-left: 413px;
-                margin-right: 155px;
+                margin-left: 317px;
+                margin-right: 104px;
                 /*flex-grow: 1;*/
                 /*display: flex;*/
                 /*align-items: center;*/
@@ -114,13 +116,18 @@
                         /*line-height: 21px;*/
                         /*color: #FFFFFF;*/
                         /*text-transform: uppercase;*/
-                        /*text-decoration: 2.3px underline transparent;*/
+                        /*text-decoration: 2px underline transparent;*/
                         /*text-underline-offset: 10px;*/
                         /*transition: text-decoration-color var(--transition-hover);*/
                     }
 
                     .menu__link:hover {
-                        /*text-decoration-color: #00F0FF;*/
+                        /*text-decoration-color: currentColor;*/
+                    }
+
+                    .menu__link--current,
+                    .menu__link--current:hover {
+                        /*color: #07F0FF;*/
                     }
 
                     .menu__sub-menu {
@@ -128,21 +135,21 @@
                     }
 
             .menu__contacts {
-                /*margin-top: -6px;*/
+                margin-top: 0;
                 /*margin-left: auto;*/
-                /*width: 277px;*/
                 /*flex-shrink: 0;*/
+                display: flex;
+                gap: 52px;
             }
                 .menu__phone {
-                    /*margin-left: auto;*/
                     /*display: flex;*/
                     /*width: fit-content;*/
                     /*align-items: center;*/
                     /*gap: 10px;*/
                     /*font-weight: 400;*/
-                    /*font-size: 28px;*/
-                    /*line-height: 34px;*/
-                    /*color: #FFFFFF;*/
+                    font-size: 23px;
+                    line-height: 28px;
+                    color: #FFFFFF;
                     /*text-decoration: none;*/
                 }
                     .menu__tel-icon {
@@ -151,13 +158,18 @@
                     }
 
                 .menu__feedback {
-
+                    /*display: none;*/
                 }
 
                 .menu__request {
-                    margin-top: 14px;
+                    margin-top: 0;
+                    /*display: block;*/
+                    /*width: fit-content;*/
+                    /*margin-left: auto;*/
                 }
 }
+
+
 
 
 

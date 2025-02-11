@@ -18,15 +18,12 @@
     }
 }
 
-
 @media (min-resolution: 2.5dppx) {
 
     .logo {
         background-image: url("../images/logo/logo@3x.png");
     }
 }
-
-
 
 @media (width < 740px) {
 
@@ -35,6 +32,8 @@
         height: 37px;
     }
 }
+
+
 
 
 
@@ -47,8 +46,8 @@
 @media (1850px <= width) {
 
     .logo--larger {
-        width: 287px;
-        height: 73px;
+        width: 216px;
+        height: 56px;
     }
 }
 

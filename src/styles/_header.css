@@ -1,6 +1,6 @@
 .header {
     height: var(--header-height);
-    background-color: #0D25FF;
+    background-color: var(--siniy1);
 }
     .header__detachable-part {
         height: 100%;
@@ -13,10 +13,33 @@
         }
 
         .header__branding {
-            margin-top: 1px;
             position: relative;
             z-index: 10;
         }
+
+
+
+@media (1850px <= width) {
+
+    .header {
+        /*height: var(--header-height);*/
+        /*background-color: var(--siniy1);*/
+    }
+        .header__detachable-part {
+            /*height: 100%;*/
+            /*display: flex;*/
+            /*align-items: center;*/
+            /*justify-content: space-between;*/
+        }
+            .header__toggle-menu {
+                /*display: none;*/
+            }
+
+            .header__branding {
+                /*position: relative;*/
+                /*z-index: 10;*/
+            }
+}
 
 
 
