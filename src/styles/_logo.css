@@ -28,6 +28,16 @@
 
 
 
+@media (width < 740px) {
+
+    .logo {
+        width: 146px;
+        height: 37px;
+    }
+}
+
+
+
 .logo--larger {
     width: 189px;
     height: 49px;
@@ -41,3 +51,5 @@
         height: 73px;
     }
 }
+
+

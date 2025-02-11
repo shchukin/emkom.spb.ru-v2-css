@@ -251,21 +251,15 @@
 @media (width < 740px) {
 
     .footer {
-        padding-top: 10px;
-        padding-bottom: 21px;
-        /*background-color: #0D25FF;*/
-        /*color: #FFFFFF;*/
+        padding-top: 17px;
+        padding-bottom: 40px;
     }
         .footer__wrap {
             position: relative;
             display: block;
-            /*align-items: stretch;*/
-            /*gap: 28px;*/
         }
             .footer__summary {
-                /*margin-top: 2px;*/
                 width: auto;
-                /*flex-shrink: 0;*/
             }
                 .footer__branding {
                     margin-left: auto;
@@ -273,22 +267,22 @@
                 }
 
                 .footer__address {
-                    /*margin-top: 40px;*/
-                    /*font-size: 17px;*/
-                    /*line-height: 25px;*/
-                    margin-top: 20px;
+                    margin-top: 10px;
                     text-align: center;
+                    color: #FFFFFF;
                 }
 
                 .footer__legalities {
-                    margin-top: 190px;
+                    margin-top: 136px;
+                    font-size: 14px;
+                    line-height: 20px;
                     text-align: center;
-                    /*font-weight: 400;*/
-                    /*font-size: 12px;*/
-                    /*line-height: 21px;*/
+                    text-transform: none;
                 }
                     .footer__copyright {
-                        margin-top: 16px;
+                        margin-top: 10px;
+                        font-size: 14px;
+                        line-height: 20px;
                     }
 
             .footer__contains {
@@ -297,10 +291,6 @@
 
             .footer__addition {
                 width: auto;
-                /*flex-shrink: 0;*/
-                /*display: flex;*/
-                /*flex-direction: column;*/
-                /*align-items: flex-start;*/
             }
                 .footer__phone {
                     position: absolute;
@@ -308,14 +298,10 @@
                     right: 0;
                     margin-left: auto;
                     margin-right: auto;
-                    bottom: 110px;
-                    /*display: block;*/
-                    /*width: fit-content;*/
-                    /*font-weight: normal;*/
-                    font-size: 22px;
+                    bottom: 94px;
+                    font-size: 18px;
                     line-height: 22px;
-                    /*color: #FFFFFF;*/
-                    /*text-decoration: none;*/
+                    color: #FFFFFF;
                 }
 
                 .footer__email-link {
@@ -325,15 +311,16 @@
                     margin-left: auto;
                     margin-right: auto;
                     width: fit-content;
-                    bottom: 70px;
+                    bottom: 64px;
                 }
 
                 .footer__request {
                     position: absolute;
                     left: 0;
                     right: 0;
-                    bottom: 168px;
+                    bottom: 132px;
                     width: fit-content;
+                    margin-top: 0;
                     margin-left: auto;
                     margin-right: auto;
                 }
