@@ -67,6 +67,7 @@
 
         .burger-expanded .header__detachable-part {
             box-shadow: none;
+            background-color: transparent;
         }
 
             .header__toggle-menu {
