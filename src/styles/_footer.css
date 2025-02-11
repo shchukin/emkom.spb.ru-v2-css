@@ -2,7 +2,7 @@
     border-top: 1px solid #FFFFFF;
     padding-top: 60px;
     padding-bottom: 51px;
-    background-color: #0D25FF;
+    background-color: var(--siniy1);
     color: #FFFFFF;
 }
     .footer__wrap {
