@@ -113,6 +113,7 @@
             new Swiper($carousel.querySelector('.swiper'), {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
+                spaceBetween: 16,
                 autoHeight: true,
                 pagination: {
                     el: $carousel.querySelector('.carousel__pagination'),
@@ -255,6 +256,65 @@
             });
         }
 
+        if( $carousel.classList.contains('carousel--js-init-certificates') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: 16,
+                autoHeight: true,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets, но когда добавлено много слайдов с проектами, они не влезают */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+                navigation: {
+                    prevEl: $carousel.querySelector('.carousel__button--prev'),
+                    nextEl: $carousel.querySelector('.carousel__button--next'),
+                    disabledClass: 'carousel__button--disabled',
+                },
+                breakpoints: {
+                    400: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 2,
+                    },
+                },
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-init-solutions-systems') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: 16,
+                autoHeight: true,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets, но когда добавлено много слайдов с проектами, они не влезают */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+            });
+        }
+
+        if( $carousel.classList.contains('carousel--js-init-solutions-modules') ) {
+            new Swiper($carousel.querySelector('.swiper'), {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: 16,
+                autoHeight: true,
+                pagination: {
+                    el: $carousel.querySelector('.carousel__pagination'),
+                    type: "fraction", /* можно переделать на bullets, но когда добавлено много слайдов с проектами, они не влезают */
+                    bulletClass: 'carousel__bullet',
+                    bulletActiveClass: 'carousel__bullet--current',
+                    clickable: true
+                },
+            });
+        }
+
     });
 
 
@@ -328,7 +388,7 @@
     $('.solutions__category').on('click', function (event) {
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top - 30
+            scrollTop: $($.attr(this, 'href')).offset().top - 24
         }, 600);
     });
 
