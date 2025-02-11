@@ -55,7 +55,6 @@
             flex-shrink: 0;
         }
             .menu__phone {
-                margin-left: auto;
                 display: flex;
                 width: fit-content;
                 align-items: center;
